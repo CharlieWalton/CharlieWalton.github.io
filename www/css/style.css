@@ -76,19 +76,19 @@
 .quotes {
 	position: relative;
 	margin:4px auto  ;
-	max-width: 75%;
+	max-width: 50%;
 	width: 100%;
 	min-height: 400px;
     color: #A5BAD3;
+    font-style: italic;
+    font-weight: 200;
 }
 .quotes p{
-    font-size: 26pt; 
-    font-style: italic;
+    font-size: 22pt; 
     }
 
 .quotes .name{
     font-size: 18pt; 
-    font-style: italic;
     color: #577291;
     }
 blockquote {
