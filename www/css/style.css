@@ -3,6 +3,10 @@
     background-color: #EFEFEF;
 }
 
+.btn-primary{
+    background: #6888A7;
+}
+
 .header h1{
     margin: 0;
     display: inline-block;
@@ -16,6 +20,7 @@
 }
 
 .hero{
+    position: relative;
     font-family: 'Open Sans';
     font-weight: 300;
     background: #000000;
@@ -25,42 +30,23 @@
 }
 
 .hero h2{
-    font-size: 42pt;
-    font-weight: 300;
+    font-size: 48pt;
+    font-weight: 400;
     margin: 0;
 }
 .hero h2 span{
     display: block;
     font-size: 26pt;
     font-weight: 300;
+    margin-top: 20px;
 }
 
-.hero .button{
-    margin: 40px auto;
+.hero .btn{
+    margin: 100px auto;
 }
 
-.button{
-    display: inline-block;
-    background: #CCDDFF;
-    text-decoration: none;
-    color: #2C2C2C;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+.hero-badges{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
