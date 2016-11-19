@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .header{
-    background-color: #EFEFEF; 
+    //background-color: #EFEFEF; 
     display: flex;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
 }
 
 .btn-primary{
@@ -20,15 +23,19 @@
 }
 
 .header img.logo{
-    margin: 8px auto;
+    margin: 50px auto;
     display: block;
+    padding-left: 60px;
 }
 
 .header .dropdown button{
     margin: 8px;
     height: 48px;
     width: 48px;
-    background: none;
+    background: #6888A7;
+    opacity: 0.8;
+    border: none;
+    color: #FFFFFF;
 }
 
 .header .dropdown-menu{
@@ -44,7 +51,7 @@
     background: #000000;
     color: #FFFFFF;
         text-align: center;
-        padding-top: 120px;
+        padding-top: 200px;
 }
 
 .hero h2{
