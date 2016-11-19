@@ -24,6 +24,19 @@
     display: block;
 }
 
+.header .dropdown button{
+    margin: 8px;
+    height: 48px;
+    width: 48px;
+    background: none;
+}
+
+.header .dropdown-menu{
+    position: absolute;
+    left: -112px;
+    border: none;
+}
+
 .hero{
     position: relative;
     font-family: 'Open Sans';
