@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .header{
     background-color: #6888A7;
+    
+    opacity: 0.6;
 }
 
 .btn-primary{
     background: #6888A7;
+
 }
+
 
 .header h1{
     margin: 0;
@@ -44,6 +48,10 @@
 
 .hero .btn{
     margin: 100px auto;
+    font-size: 20px;
+    padding: 12px 20px;
+    line-height: 1.4;
+    opacity: 0.8;
 }
 
 .hero-badges{
@@ -60,11 +68,34 @@
 	min-height: 400px;
     color: #B7c7DB;
 }
-.quotes p{font-size: 26pt; font-family: 'Open Sans';}
+.quotes p{
+    font-size: 26pt; 
+    font-family: 'Open Sans';
+    }
 
-.quotes footer{font-size: 18pt; font-family: 'Open Sans'; font-style: italic;}
+.quotes .name{
+    font-size: 18pt; 
+    font-family: 'Open Sans'; 
+    font-style: italic;
+    }
 
-
+.foot{
+    margin: 0;
+    display: inline-block;
+    text-align: right;
+    line-height: 20px;
+    
+    background: #6888A7;
+    width: 100%;
+    
+     
+}
+.foot p{
+    font-family: 'Open Sans';
+    font-size: 12pt;
+    color:#FFFFFF;
+    padding-right: 15px;
+    }
 
 colours{
     color: #293A4A
