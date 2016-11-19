@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .header{
-    background-color: #EFEFEF;
+    background-color: #6888A7;
 }
 
 .btn-primary{
@@ -13,6 +13,7 @@
     line-height: 40px;
     font-family: 'Open Sans';
     font-size: 12pt;
+    color:#FFFFFF;
 }
 
 .header img.logo{
@@ -50,3 +51,25 @@
     bottom: 0;
     left: 0;
 }
+
+.quotes {
+	position: relative;
+	margin: 3em auto 5em auto;
+	max-width: 800px;
+	width: 100%;
+	min-height: 400px;
+    color: #B7c7DB;
+}
+.quotes p{font-size: 26pt; font-family: 'Open Sans';}
+
+.quotes footer{font-size: 18pt; font-family: 'Open Sans'; font-style: italic;}
+
+
+
+colours{
+    color: #293A4A
+    #577291
+#6888A7
+#A5BAD3
+#B7C7DB
+#F6A623}
