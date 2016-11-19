@@ -62,24 +62,46 @@
 
 .quotes {
 	position: relative;
-	margin: 3em auto 5em auto;
-	max-width: 800px;
+	margin:4px auto  ;
+	max-width: 75%;
 	width: 100%;
 	min-height: 400px;
     color: #A5BAD3;
 }
 .quotes p{
     font-size: 26pt; 
-    font-family: 'Open Sans';
+    font-style: italic;
     }
 
 .quotes .name{
     font-size: 18pt; 
-    font-family: 'Open Sans'; 
     font-style: italic;
     color: #577291;
     }
-
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p::after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
 .foot{
     margin: 0;
     display: inline-block;
